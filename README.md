@@ -1,16 +1,16 @@
-# movie_app
+🎬 Movie App – Flutter x TMDB API
 
-A new Flutter project.
+A Flutter application that displays a list of popular movies using The Movie Database (TMDB) API.
+This project demonstrates API integration, pagination, and clean UI development in Flutter.
 
-## Getting Started
+🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
+- Flutter (UI Framework)
 
-A few resources to get you started if this is your first Flutter project:
+- Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- HTTP package – API fetching
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Infinite Scroll Pagination – paged movie list
+
+- TMDB API – movie data source

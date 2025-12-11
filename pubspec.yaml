@@ -1,0 +1,32 @@
+name: movie_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP Client untuk API
+  dio: ^5.9.0
+
+  # Infinite Scroll Pagination
+  infinite_scroll_pagination: ^4.1.0
+
+  # Cache Network Image
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
